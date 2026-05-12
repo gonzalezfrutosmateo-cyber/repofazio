@@ -8,7 +8,11 @@ public reloj(int hh, int mm){
     this.mm= mm;
 }
 public void imprimir(){
-    System.out.println("Su hora es: " + hh + ":" + mm); 
+    if(hh>=24 || mm>=60){
+    System.out.println("La hora ingresada es invalida"); 
 }
-
+    else {
+        System.out.println("Su hora es: " + hh + ":" + mm);
+        }
+}
 }

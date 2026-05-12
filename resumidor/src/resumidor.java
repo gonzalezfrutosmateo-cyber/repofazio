@@ -19,6 +19,7 @@ public class resumidor {
       book.imprimir();
       System.out.println("Desea continuar 1-si 2-no");
       continuar=sca.nextInt();
+      sca.nextLine(); 
     }while(continuar==1);
 }
 }
