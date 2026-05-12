@@ -2,7 +2,7 @@ public class Mascota {
     String nombre;
     int tipo;
 
-    public Mascota(String nombre, int tipo) { // ✅ parámetro corregido
+    public Mascota(String nombre, int tipo) { 
         this.nombre = nombre;
         this.tipo = tipo;
     }
